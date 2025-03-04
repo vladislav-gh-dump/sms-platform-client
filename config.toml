@@ -1,0 +1,8 @@
+[server]
+host = "localhost"
+port = 4010
+path = "/send_sms"
+
+[auth]
+username = "user1"
+password = "123"
