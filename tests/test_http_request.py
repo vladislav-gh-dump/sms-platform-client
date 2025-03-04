@@ -1,5 +1,6 @@
 import json
-from sms_cli import HttpRequest, encode_creds
+from sms_cli.http_messages import HttpRequest
+from sms_cli.utils import encode_creds
 
 
 def test_http_request_to_bytes():

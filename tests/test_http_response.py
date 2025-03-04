@@ -1,4 +1,4 @@
-from sms_cli import HttpResponse
+from sms_cli.http_messages import HttpResponse
 
 
 def test_http_response_ok():

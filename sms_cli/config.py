@@ -1,5 +1,5 @@
+from .utils import load_toml
 from dataclasses import dataclass
-from utils import load_toml
 
 
 _config_path = "config.toml"
