@@ -79,7 +79,7 @@ pytest
 
 #### Проблема с pyreadline
 
-Если при запуске тестов с pytest возникает ошибка:
+Если при запуске тестов возникает ошибка:
 ```bash
 AttributeError: module 'collections' has no attribute 'Callable'
 ```
