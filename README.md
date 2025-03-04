@@ -29,6 +29,7 @@
 1. Клонирование репозитория:
 ```bash
 git clone https://github.com/vladislav-gh-dump/sms-platform-client.git
+cd sms-platform-client
 ```
 
 2. Установка зависимостей:
