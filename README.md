@@ -77,6 +77,18 @@ python -m sms_cli -h
 pytest
 ```
 
+#### Проблема с pyreadline
+
+Если при запуске тестов с pytest возникает ошибка:
+```bash
+AttributeError: module 'collections' has no attribute 'Callable'
+```
+
+Удалите библиотеку `pyreadline`:
+```bash
+pip uninstall pyreadline
+```
+
 ### Интеграционное тестирование с мок-сервером
 
 Можно протестировать работу программы в реальном сценарии, запустив мок-сервер и отправив тестовое сообщение:
